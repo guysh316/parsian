@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parsian Header</title>
+    <link rel="stylesheet" href="assets/css/servicecart.css">
+    <link href="https://cdn.fontstore.ir/fonts/Bonyad-Koodak/Bonyad-Koodak-FaNum.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+<body>
+    <div class="white">
+    <div class="container">
+        <!-- دکمه همبرگری -->
+        <button class="hamburger-menu" onclick="toggleMenu()">☰</button>
+    
+        <header>
+            <!-- لوگو -->
+            <div class="logo">
+                <img src="assets/img/logo/logo.png" alt="Logo">
+                <div class="logo-text">
+                    <h1 data-lang-fa="پارسایان" data-lang-en="Parsian">پارسایان</h1>
+                    <p data-lang-fa="شرکت حمل و نقل بین المللی" data-lang-en="International Transport Company">شرکت حمل و نقل بین المللی</p>
+                </div>
+            </div>
+    
+            <!-- منو -->
+            <nav>
+                <ul class="menu">
+                    <li data-lang-fa="صفحه نخست" data-lang-en="Home" class="up" ><a href="index.html"> صفحه نخست </a></li>
+                    <li data-lang-fa="خدمات ما" data-lang-en="Our Services" class="active"><a href="servicecart.html" > خدمات ما </a></li>
+                    <li data-lang-fa="ارتباط با ما" data-lang-en="Contact Us"><a href="contact.html"> ارتباط با ما </a></li>
+                    <li data-lang-fa="درباره ما" data-lang-en="About Us"><a href="aboutus.html"> درباره ما </a></li>
+                    <li data-lang-fa=" بخش رانندگان " data-lang-en=" Drivers section "><a href="DriverLogin.php"> بخش رانندگان </a></li>
+                </ul>
+            </nav>
+    
+            <!-- تغییر زبان و شماره تماس -->
+            <div class="contact-lang">
+                <div class="phone">
+                    <span>0973726518</span>
+                    <img class="phone-icon" src="assets/img/icon-first/Rectangle 6.png" alt="phone">
+                    <img class="phone-i" src="assets/img/icon-first/phone.png" alt="phone">
+                </div>
+                <div class="lang-switcher" onclick="toggleDropdown()">
+                    <img id="arrow-icon" class="arrow-icon" src="assets/img/icon-first/down-arrow-5-svgrepo-com.svg" alt="arrow">
+                    <span id="current-lang">FA</span>
+                    <img class="globe-icon" src="assets/img/icon-first/globe-alt-1-svgrepo-com.svg" alt="globe">
+                    <div id="dropdown" class="dropdown">
+                        <span onclick="switchLanguage('EN')">EN</span>
+                        <span onclick="switchLanguage('FA')">FA</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+</div>   
+    <div class="slash"></div>
+
+
+
+    <img class="one-plus" src="assets/img/service/water.png"/>
+
+
+    <div class="pro">
+        <ul>
+            <li>حمل دریایی یکی دیگر از روش‌های رایج حمل و نقل، بخصوص برای کالاهایی که دارای حجم و وزن زیاد هستند می‌باشد و بدین طریق جدا از سایر مزایای این روش، در هزینه‌های حمل و نقل محموله‌های بزرگ صرفه‌جویی بالایی صورت می‌گیرد.</li>
+            <li>اگرچه در بعضی موارد مشخصات جغرافیایی کشورها، این نحوه‌ی حمل را بدلیل عدم دسترسی به آب‌های آزاد در آن کشورها غیرممکن می‌سازد؛ اما با تمام این موارد، حمل و نقل دریایی یکی از مهمترین انواع حمل بوده و درصد بالایی از تجارت جهان بدین شیوه به مقاصد حمل می‌گردد.</li>
+            <li>حمل و نقل دریایی از قبیل ارسال مستقیم، کراس استافینگ، ترانشیپ، چارترینگ، گروپاژ و پروژهای و استفاده از کانتینرهای یخچالی صورت می‌پذیرد.</li>
+            <li>شرکت هژِیرراه با تجربه 30 ساله در امر حمل و نقل بین المللی و روابط عالی با شرکت‌های معتبر فورواردی و کریری در تلاش است تا راه‌حل‌های منحصر به فرد و متناسبی را برای رفع نیازهای حمل و نقل دریایی به مشتریان خود ارائه نماید.</li>
+        </ul>
+    </div>    
+
+
+    <div class="faq-container">
+        <!-- FAQ Item 1 -->
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleFaq(this)">
+                <span class="faq-icon">+</span>
+                هزینه ارسال بار دریایی چقدر است؟
+            </div>
+            <div class="faq-answer">
+                <p>هزینه‌های حمل و نقل دریایی بسیار متغیر و مقرون‌به‌صرفه است. عواملی مانند وزن، حجم، و مسافت طی شده از مبدأ تا مقصد نقش تعیین‌کننده‌ای در قیمت نهایی دارند. شرکت‌های معتبر با ارائه شفافیت در قیمت‌ها و رقابت در خدمات، بهترین گزینه برای انتخاب شما هستند.</p>
+            </div>
+        </div>
+    
+        <!-- FAQ Item 2 -->
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleFaq(this)">
+                <span class="faq-icon">+</span>
+                مسیرهای حمل دریایی کدام‌اند؟
+            </div>
+            <div class="faq-answer">
+                <p>مسیرهای حمل دریایی شامل مسیرهایی مانند مسیرهای خلیج فارس به اروپا، آسیا، و آمریکا هستند. هر مسیر ویژگی‌ها و مزایای خاص خود را دارد و شرکت‌های حمل و نقل با توجه به نیازهای مشتری، مسیر مناسب را پیشنهاد می‌دهند.</p>
+            </div>
+        </div>
+    
+        <!-- FAQ Item 3 -->
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleFaq(this)">
+                <span class="faq-icon">+</span>
+                روش‌های ارسال بار دریایی چیست؟
+            </div>
+            <div class="faq-answer">
+                <p>روش‌های ارسال بار دریایی شامل کانتینری، فله‌ای، و یا خدمات سریع است که هر کدام بر اساس نوع کالا و مدت زمان حمل، گزینه‌ای مناسب را برای مشتری فراهم می‌کند.</p>
+            </div>
+        </div>
+    
+        <!-- FAQ Item 4 -->
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleFaq(this)">
+                <span class="faq-icon">+</span>
+                حمل و نقل دریایی بین‌المللی شامل چه چیزهایی است؟
+            </div>
+            <div class="faq-answer">
+                <p>حمل و نقل بین‌المللی فرآیندی برای انتقال کالاها از یک کشور به کشوری دیگر است که شامل روش‌های مختلفی مانند حمل هوایی، زمینی و دریایی می‌شود. این نوع حمل و نقل برای تجارت جهانی بسیار حیاتی است.</p>
+            </div>
+        </div>
+    
+        <!-- FAQ Item 5 -->
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleFaq(this)">
+                <span class="faq-icon">+</span>
+                کالاهای قابل حمل با حمل و نقل دریایی کدام‌اند؟
+            </div>
+            <div class="faq-answer">
+                <p>اکثر کالاها از جمله محصولات فله، مواد خام، کالاهای بزرگ و صنعتی و مواد غذایی به صورت دریایی قابل حمل هستند. این روش برای حمل بارهای حجیم و سنگین به‌ویژه مناسب است.</p>
+            </div>
+        </div>
+    
+        <!-- FAQ Item 6 -->
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleFaq(this)">
+                <span class="faq-icon">+</span>
+                مزایای حمل و نقل دریایی چیست؟
+            </div>
+            <div class="faq-answer">
+                <p>حمل و نقل دریایی یکی از مقرون‌به‌صرفه‌ترین روش‌های حمل کالا است که امکان انتقال حجم بالای کالا را فراهم می‌کند و همچنین تأثیر محیطی کمتری نسبت به حمل و نقل هوایی دارد.</p>
+            </div>
+        </div>
+    
+        <!-- FAQ Item 7 -->
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleFaq(this)">
+                <span class="faq-icon">+</span>
+                معایب حمل و نقل دریایی چیست؟
+            </div>
+            <div class="faq-answer">
+                <p>حمل و نقل دریایی اگرچه مقرون‌به‌صرفه است اما زمان‌برتر است و برای کالاهایی که نیاز به حمل سریع دارند ممکن است بهترین گزینه نباشد.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="footer-container">
+        <!-- Logo -->
+        <div class="footer-logo">
+          <img src="assets/img/footer/Logo.png" alt="Parsayan Logo">
+        </div>
+        
+        <!-- Black background area -->
+        <div class="footer-background">
+
+                      <!-- Right section: Navigation and copyright -->
+          <div class="footer-right">
+            <div class="footer-nav">
+              <a href="#">خدمات ما</a>
+              <span>|</span>
+              <a href="#">تماس با ما</a>
+              <span>|</span>
+              <a href="#">درباره ما</a>
+              <span>|</span>
+              <a href="#">همکاری با ما</a>
+            </div>
+            <div class="footer-copyright">
+              © تمامی حقوق این سایت متعلق به پارسیان می‌باشد.
+            </div>
+          </div>
+
+          <!-- Left section: Social icons and email -->
+          <div class="footer-left">
+            <div class="social-icons">
+              <a href="#"><img src="assets/img/footer/whatsapp.png"/></a>
+              <a href="#"><img src="assets/img/footer/youtube.png"/></a>
+              <a href="#"><img src="assets/img/footer/twiter.png"/></a>
+              <a href="#"><img src="assets/img/footer/instagram.png"/></a>
+            </div>
+            <div class="footer-email">parsayan@gmail.com</div>
+          </div>
+    
+        </div>
+      </div>
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="assets/java script/service.js"></script>
+</body>
+</html>
